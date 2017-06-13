@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <!-- Site Title -->
+    <title>Udacity's Portfolio Project</title>
+    <!-- Css Imports -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- JavaScript Imports-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header id="home">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="extra-margin-top title-logo img-responsive" src="images/kitchen_logo.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="text-uppercase text-right text-thin title-super">Edwin Marte</h1>
+                    <h4 class="text-uppercase text-right text-bold">Front-End Ninja</h4>
+                </div>
+            </div>
+        <!-- Navbar-->
+            <div class="row extra-margin-top">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Tasteful Touch</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#article">Article</a></li>
+                        <li><a href="#featured-work">Featured Work</a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
+            </div>
+        </header>
+        <section id="article">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="images/mockup5.jpg" alt="Modern Kitchen Photo" class="img-responsive">
+                </div>
+                <article>
+                    <div class="col-md-12">
+                        <p class="article-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare tristique nisi, ut commodo lectus rhoncus et.
+                            Aliquam vitae interdum ligula. Aenean fermentum urna nulla, sit amet dapibus quam tempor ut.
+                            Proin lacinia vehicula ex, non facilisis dolor eleifend sit amet. Curabitur scelerisque orci id dui interdum sollicitudin.
+                            Phasellus ac enim vel mi imperdiet pellentesque. Proin in eros a quam facilisis vestibulum.
+                            Integer rutrum nibh ut turpis tincidunt ullamcorper. Donec ultricies metus a odio dignissim blandit.
+                            Mauris iaculis metus at arcu mattis, ut auctor est egestas. Sed rhoncus tincidunt neque et hendrerit.
+                            Fusce ultricies vestibulum magna in porttitor. Vestibulum orci tellus, mollis ac pretium non, pellentesque semper nisl.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="featured-work">
+            <div class="row extra-margin-top">
+                <div class="col-md-12">
+                    <h2 class="text-bold text-muted">Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="images/mockup1.jpg" alt="Small Modern Kitchen" class="img-responsive" data-toggle="modal" data-target="#project1">
+                    <h3 class="footer-text text-bold text-uppercase">Recipes</h3>
+                    <a class="link-text" href="http://allrecipes.com/">All Recipes Site</a>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/mockup2.jpg" alt="Modern Medium Size Kitchen" class="img-responsive" data-toggle="modal" data-target="#project2">
+                    <h3 class="footer-text text-bold text-uppercase">Kitchen Tips</h3>
+                    <a class="link-text" href="https://www.pinterest.com/explore/consejos-de-cocina/">Pinterest Tips and Ideas</a>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/mockup3.jpg" alt="Semi-Professional Modern Kitchen" class="img-responsive" data-toggle="modal" data-target="#project3">
+                    <h3 class="footer-text text-bold text-uppercase">Cooking Lessons</h3>
+                    <a class="link-text" href="http://www.thekitchn.com/collection/cooking-school-373">The Kitchen's Cooking School</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="project1ModalLabel">Recipes</h4>
+                </div>
+                <div class="modal-body modal-text">
+                    <img class="img-responsive" src="images/mockup1.jpg">
+                    Go Ahead and Visit the Link to know more about Kitchen, Cooking and MORE!!!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="project2ModalLabel">Cooking Lessons</h4>
+                </div>
+                <div class="modal-body modal-text">
+                    <img class="img-responsive" src="images/mockup2.jpg">
+                    Go Ahead and Visit the Link to know more about Kitchen, Cooking and MORE!!!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="project3ModalLabel">The Kitchen's Cooking School</h4>
+                </div>
+                <div class="modal-body modal-text">
+                    <img class="img-responsive" src="images/mockup3.jpg">
+                    Go Ahead and Visit the Link to know more about Kitchen, Cooking and MORE!!!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
