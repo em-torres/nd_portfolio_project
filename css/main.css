@@ -21,6 +21,9 @@ hr {
 .link-text {
     font-size: 16px;
 }
+.modal-text {
+    font-size: 16px;
+}
 .text-bold {
     font-weight: bold;
 }
@@ -37,6 +40,7 @@ hr {
     font-size: 60px;
 }
 
+/* Media Queries */
 @media screen and (max-width: 442px) {
     .title-logo { width: 200px; }
     .title-super { font-size: 38px; }
