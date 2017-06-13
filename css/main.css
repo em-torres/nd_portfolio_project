@@ -1,0 +1,16 @@
+body {
+    color: #747704;
+}
+
+.text-muted {
+    color: #BCBBBB;
+}
+.text-thin {
+    font-weight: 100;
+}
+.title-logo {
+    margin-top: 20px;
+}
+.title-super {
+    font-size: 60px;
+}
